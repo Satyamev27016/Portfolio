@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Contact(){
     return (
+       
       <div className="flex items-top justify-center h-screen bg-white sm:items-center sm:pt-0 w-full">
       <div className="max-w-6xl w-full mx-auto sm:px-6 lg:px-8">
           <div className="mt-8 overflow-hidden">
@@ -139,7 +140,8 @@ export default function Contact(){
               </div>
             </div> 
           </div>  
-        </div>            
+        </div>  
+                    
 
     );
  }

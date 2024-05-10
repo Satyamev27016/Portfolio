@@ -4,16 +4,17 @@ import Footer from './Component/Footer'
 import { Outlet } from 'react-router-dom'
 
 
-function Layout(){
+
+const Layout = () => {
     return(
-        <>
+        <div >
         <Header/>
             
-                <Outlet /> 
+        <Outlet/>
             
         <Footer />
-        </>
-    )
-}
+        </div>
+    );
+};
 
-export default Layout
+export default Layout;
